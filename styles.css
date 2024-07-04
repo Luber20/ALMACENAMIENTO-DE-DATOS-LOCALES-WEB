@@ -1,0 +1,92 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('ima.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.86);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los grupos de formularios */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas de los campos de formulario */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de texto, correo electrónico y el botón de enviar */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Estilos para el botón de enviar */
+.btn-submit {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4c53af;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-submit:hover {
+  background-color: #49a045;
+}
+
+/* Estilos para la sección de clientes guardados */
+#savedClients {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  color: #000;
+}
+
+.client {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.client p {
+  margin: 5px 0;
+}
+
+.client hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
